@@ -1,0 +1,1199 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Mar 31 10:01:05 2023
+# Process ID: 39156
+# Current directory: C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.runs/synth_1/main.vds
+# Journal file: C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace
+Command: synth_design -top main -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 31684 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 367.539 ; gain = 110.965
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk20k' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/clk_frequencies.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'clk20k' (1#1) [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/clk_frequencies.v:43]
+INFO: [Synth 8-6157] synthesizing module 'clk100MHz' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/clk_frequencies.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'clk100MHz' (2#1) [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/clk_frequencies.v:33]
+INFO: [Synth 8-6157] synthesizing module 'clk50k' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/clk_frequencies.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk50k' (3#1) [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/clk_frequencies.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Audio_Input' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Audio_Input.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'Audio_Input' (4#1) [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Audio_Input.v:25]
+WARNING: [Synth 8-6090] variable 'BPMCount' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:1184]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:1220]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8829]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8839]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8849]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8861]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8871]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8881]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8893]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8903]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8913]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8925]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8935]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8945]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8957]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8967]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8977]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8989]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:8999]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9009]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9021]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9031]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9041]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9053]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9063]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9073]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9085]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9148]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9158]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9168]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9180]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9190]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9200]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9212]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9222]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9232]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9244]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9254]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9264]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9276]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9286]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9296]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9308]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9318]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9328]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9340]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9350]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9360]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9372]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9382]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9392]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9404]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9452]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9462]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9472]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9484]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9494]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9504]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9516]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9526]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9536]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9548]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9558]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9568]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9580]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9590]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9600]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9612]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9622]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9632]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9644]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9654]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9664]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9676]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9686]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9696]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9708]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9771]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9781]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9791]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9803]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9813]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9823]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9835]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9845]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9855]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9867]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9877]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9887]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9899]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9909]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9919]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9931]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9941]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9951]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9961]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9973]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9983]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:9993]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:10005]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:10015]
+INFO: [Common 17-14] Message 'Synth 8-155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-638] synthesizing module 'Audio_Output' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Audio_Output.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'Audio_Output' (5#1) [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Audio_Output.vhd:63]
+WARNING: [Synth 8-689] width (32) of port connection 'DONE' does not match port width (1) of module 'Audio_Output' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:19029]
+WARNING: [Synth 8-2900] ignoring illegal expression in output port connection [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:19029]
+INFO: [Synth 8-6157] synthesizing module 'Oled_Display' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Oled_Display.v:36]
+	Parameter Width bound to: 96 - type: integer 
+	Parameter Height bound to: 64 - type: integer 
+	Parameter PixelCount bound to: 6144 - type: integer 
+	Parameter PixelCountWidth bound to: 13 - type: integer 
+	Parameter ClkFreq bound to: 6250000 - type: integer 
+	Parameter FrameFreq bound to: 60 - type: integer 
+	Parameter FrameDiv bound to: 104166 - type: integer 
+	Parameter FrameDivWidth bound to: 17 - type: integer 
+	Parameter PowerDelay bound to: 20 - type: integer 
+	Parameter ResetDelay bound to: 3 - type: integer 
+	Parameter VccEnDelay bound to: 20 - type: integer 
+	Parameter StartupCompleteDelay bound to: 100 - type: integer 
+	Parameter MaxDelay bound to: 100 - type: integer 
+	Parameter MaxDelayCount bound to: 625000 - type: integer 
+	Parameter StateCount bound to: 32 - type: integer 
+	Parameter StateWidth bound to: 5 - type: integer 
+	Parameter PowerUp bound to: 5'b00000 
+	Parameter Reset bound to: 5'b00001 
+	Parameter ReleaseReset bound to: 5'b00011 
+	Parameter EnableDriver bound to: 5'b00010 
+	Parameter DisplayOff bound to: 5'b00110 
+	Parameter SetRemapDisplayFormat bound to: 5'b00111 
+	Parameter SetStartLine bound to: 5'b00101 
+	Parameter SetOffset bound to: 5'b00100 
+	Parameter SetNormalDisplay bound to: 5'b01100 
+	Parameter SetMultiplexRatio bound to: 5'b01101 
+	Parameter SetMasterConfiguration bound to: 5'b01111 
+	Parameter DisablePowerSave bound to: 5'b01110 
+	Parameter SetPhaseAdjust bound to: 5'b01010 
+	Parameter SetDisplayClock bound to: 5'b01011 
+	Parameter SetSecondPrechargeA bound to: 5'b01001 
+	Parameter SetSecondPrechargeB bound to: 5'b01000 
+	Parameter SetSecondPrechargeC bound to: 5'b11000 
+	Parameter SetPrechargeLevel bound to: 5'b11001 
+	Parameter SetVCOMH bound to: 5'b11011 
+	Parameter SetMasterCurrent bound to: 5'b11010 
+	Parameter SetContrastA bound to: 5'b11110 
+	Parameter SetContrastB bound to: 5'b11111 
+	Parameter SetContrastC bound to: 5'b11101 
+	Parameter DisableScrolling bound to: 5'b11100 
+	Parameter ClearScreen bound to: 5'b10100 
+	Parameter VccEn bound to: 5'b10101 
+	Parameter DisplayOn bound to: 5'b10111 
+	Parameter PrepareNextFrame bound to: 5'b10110 
+	Parameter SetColAddress bound to: 5'b10010 
+	Parameter SetRowAddress bound to: 5'b10011 
+	Parameter WaitNextFrame bound to: 5'b10001 
+	Parameter SendPixel bound to: 5'b10000 
+	Parameter SpiCommandMaxWidth bound to: 40 - type: integer 
+	Parameter SpiCommandBitCountWidth bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Oled_Display.v:123]
+INFO: [Synth 8-226] default block is never used [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Oled_Display.v:198]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Oled_Display.v:346]
+INFO: [Synth 8-6155] done synthesizing module 'Oled_Display' (6#1) [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Oled_Display.v:36]
+INFO: [Synth 8-638] synthesizing module 'MouseCtl' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Mouse_Control.vhd:212]
+	Parameter SYSCLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+	Parameter CHECK_PERIOD_MS bound to: 500 - type: integer 
+	Parameter TIMEOUT_PERIOD_MS bound to: 100 - type: integer 
+INFO: [Synth 8-3491] module 'Ps2Interface' declared at 'C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Ps2Interface.vhd:156' bound to instance 'Inst_Ps2Interface' of component 'Ps2Interface' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Mouse_Control.vhd:374]
+INFO: [Synth 8-638] synthesizing module 'Ps2Interface' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Ps2Interface.vhd:184]
+INFO: [Synth 8-256] done synthesizing module 'Ps2Interface' (7#1) [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Ps2Interface.vhd:184]
+WARNING: [Synth 8-6014] Unused sequential element inc_reg was removed.  [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Mouse_Control.vhd:455]
+WARNING: [Synth 8-6014] Unused sequential element x_inter_reg was removed.  [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Mouse_Control.vhd:461]
+WARNING: [Synth 8-6014] Unused sequential element inc_reg was removed.  [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Mouse_Control.vhd:519]
+WARNING: [Synth 8-6014] Unused sequential element y_inter_reg was removed.  [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Mouse_Control.vhd:525]
+INFO: [Synth 8-256] done synthesizing module 'MouseCtl' (8#1) [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/imports/Desktop/Mouse_Control.vhd:212]
+INFO: [Synth 8-6157] synthesizing module 'freq_Input' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/freq_Input.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'freq_Input' (9#1) [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/freq_Input.v:23]
+WARNING: [Synth 8-6014] Unused sequential element clkCustom_reg was removed.  [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:1205]
+INFO: [Synth 8-6155] done synthesizing module 'main' (10#1) [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Top_Student.v:23]
+WARNING: [Synth 8-3331] design main has unconnected port JC[2]
+WARNING: [Synth 8-3331] design main has unconnected port sw[15]
+WARNING: [Synth 8-3331] design main has unconnected port sw[14]
+WARNING: [Synth 8-3331] design main has unconnected port sw[13]
+WARNING: [Synth 8-3331] design main has unconnected port sw[12]
+WARNING: [Synth 8-3331] design main has unconnected port sw[11]
+WARNING: [Synth 8-3331] design main has unconnected port sw[10]
+WARNING: [Synth 8-3331] design main has unconnected port sw[9]
+WARNING: [Synth 8-3331] design main has unconnected port sw[8]
+WARNING: [Synth 8-3331] design main has unconnected port sw[7]
+WARNING: [Synth 8-3331] design main has unconnected port sw[6]
+WARNING: [Synth 8-3331] design main has unconnected port sw[5]
+WARNING: [Synth 8-3331] design main has unconnected port sw[4]
+WARNING: [Synth 8-3331] design main has unconnected port sw[3]
+WARNING: [Synth 8-3331] design main has unconnected port sw[2]
+WARNING: [Synth 8-3331] design main has unconnected port sw[1]
+WARNING: [Synth 8-3331] design main has unconnected port sw[0]
+WARNING: [Synth 8-3331] design main has unconnected port btnC
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:17 . Memory (MB): peak = 611.043 ; gain = 354.469
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 611.043 ; gain = 354.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 611.043 ; gain = 354.469
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'JA[4]'. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[4]'. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[5]'. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[5]'. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[6]'. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[6]'. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[7]'. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA[7]'. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/constrs_1/new/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 915.137 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 915.137 ; gain = 658.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 915.137 ; gain = 658.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 915.137 ; gain = 658.562
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "my_clk0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "my_clk0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "my_clk0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'Audio_Output'
+INFO: [Synth 8-5544] ROM "DONE" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Oled_Display'
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "fsm_next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Ps2Interface'
+INFO: [Synth 8-5546] ROM "reset_bit_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "busy" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "read_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "load_tx_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ps2_clk_h" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "delay_100us_counter_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "delay_20us_counter_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "delay_63clk_counter_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MouseCtl'
+INFO: [Synth 8-5545] ROM "periodic_check_tick" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "timeout" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reset_periodic_check_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "new_event" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "sample_count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "crosses0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "crosses" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'playingNote_reg' in module 'main'
+INFO: [Synth 8-5546] ROM "seg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "led" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "clk6p25m" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "seg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "led" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "clk6p25m" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pages" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pages" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0001 |                               00
+                shiftout |                             0010 |                               01
+                syncdata |                             0100 |                               10
+                  iSTATE |                             1000 |                               11
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'Audio_Output'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 PowerUp | 00000000100000000000000000000000 |                            00000
+                   Reset | 00000000000100000000000000000000 |                            00001
+            ReleaseReset | 00000000000000000000100000000000 |                            00011
+            EnableDriver | 00000000000000000001000000000000 |                            00010
+              DisplayOff | 00000000000000000100000000000000 |                            00110
+   SetRemapDisplayFormat | 00000100000000000000000000000000 |                            00111
+            SetStartLine | 00001000000000000000000000000000 |                            00101
+               SetOffset | 10000000000000000000000000000000 |                            00100
+        SetNormalDisplay | 00000000000000000000000010000000 |                            01100
+       SetMultiplexRatio | 00000000000000000000000000100000 |                            01101
+  SetMasterConfiguration | 00000000000000000000000001000000 |                            01111
+        DisablePowerSave | 00000000000000000000000000000100 |                            01110
+          SetPhaseAdjust | 00000000000000000000000000001000 |                            01010
+         SetDisplayClock | 00000000001000000000000000000000 |                            01011
+     SetSecondPrechargeA | 00000000010000000000000000000000 |                            01001
+     SetSecondPrechargeB | 01000000000000000000000000000000 |                            01000
+     SetSecondPrechargeC | 00000010000000000000000000000000 |                            11000
+       SetPrechargeLevel | 00000001000000000000000000000000 |                            11001
+                SetVCOMH | 00000000000000010000000000000000 |                            11011
+        SetMasterCurrent | 00000000000000100000000000000000 |                            11010
+            SetContrastA | 00000000000001000000000000000000 |                            11110
+            SetContrastB | 00100000000000000000000000000000 |                            11111
+            SetContrastC | 00000000000000000000000000000001 |                            11101
+        DisableScrolling | 00000000000000000000000000000010 |                            11100
+             ClearScreen | 00000000000000000000000000010000 |                            10100
+                   VccEn | 00010000000000000000000000000000 |                            10101
+               DisplayOn | 00000000000010000000000000000000 |                            10111
+        PrepareNextFrame | 00000000000000001000000000000000 |                            10110
+           SetColAddress | 00000000000000000000010000000000 |                            10010
+           SetRowAddress | 00000000000000000000000100000000 |                            10011
+           WaitNextFrame | 00000000000000000000001000000000 |                            10001
+               SendPixel | 00000000000000000010000000000000 |                            10000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Oled_Display'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                00000000000000001 |                            00000
+            rx_down_edge |                00000000000000010 |                            00011
+                rx_clk_l |                00000000000000100 |                            00010
+                rx_clk_h |                00000000000001000 |                            00001
+         rx_error_parity |                00000000000010000 |                            00100
+           rx_data_ready |                00000000000100000 |                            00101
+          tx_force_clk_l |                00000000001000000 |                            00110
+      tx_bring_data_down |                00000000010000000 |                            00111
+          tx_release_clk |                00000000100000000 |                            01000
+ tx_first_wait_down_edge |                00000001000000000 |                            01001
+                tx_clk_l |                00000010000000000 |                            01010
+         tx_wait_up_edge |                00000100000000000 |                            01011
+tx_wait_up_edge_before_ack |                00001000000000000 |                            01101
+             tx_wait_ack |                00010000000000000 |                            01110
+         tx_received_ack |                00100000000000000 |                            01111
+         tx_error_no_ack |                01000000000000000 |                            10000
+                tx_clk_h |                10000000000000000 |                            01100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Ps2Interface'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   reset | 0000000000000000000000000000000000001 |                           000000
+          reset_wait_ack | 0000000000000000000000000000000000010 |                           000001
+reset_wait_bat_completion | 0000000000000000000000000000000000100 |                           000010
+           reset_wait_id | 0000000000000000000000000000000001000 |                           000011
+reset_set_sample_rate_200 | 0000000000000000000000000000000010000 |                           000100
+reset_set_sample_rate_200_wait_ack | 0000000000000000000000000000000100000 |                           000101
+reset_send_sample_rate_200 | 0000000000000000000000000000001000000 |                           000110
+reset_send_sample_rate_200_wait_ack | 0000000000000000000000000000010000000 |                           000111
+reset_set_sample_rate_100 | 0000000000000000000000000000100000000 |                           001000
+reset_set_sample_rate_100_wait_ack | 0000000000000000000000000001000000000 |                           001001
+reset_send_sample_rate_100 | 0000000000000000000000000010000000000 |                           001010
+reset_send_sample_rate_100_wait_ack | 0000000000000000000000000100000000000 |                           001011
+reset_set_sample_rate_80 | 0000000000000000000000001000000000000 |                           001100
+reset_set_sample_rate_80_wait_ack | 0000000000000000000000010000000000000 |                           001101
+reset_send_sample_rate_80 | 0000000000000000000000100000000000000 |                           001110
+reset_send_sample_rate_80_wait_ack | 0000000000000000000001000000000000000 |                           001111
+           reset_read_id | 0000000000000000000010000000000000000 |                           010000
+  reset_read_id_wait_ack | 0000000000000000000100000000000000000 |                           010001
+   reset_read_id_wait_id | 0000000000000000001000000000000000000 |                           010010
+    reset_set_resolution | 0000000000000000010000000000000000000 |                           010011
+reset_set_resolution_wait_ack | 0000000000000000100000000000000000000 |                           010100
+   reset_send_resolution | 0000000000000001000000000000000000000 |                           010101
+reset_send_resolution_wait_ack | 0000000000000010000000000000000000000 |                           010110
+reset_set_sample_rate_40 | 0000000000000100000000000000000000000 |                           010111
+reset_set_sample_rate_40_wait_ack | 0000000000001000000000000000000000000 |                           011000
+reset_send_sample_rate_40 | 0000000000010000000000000000000000000 |                           011001
+reset_send_sample_rate_40_wait_ack | 0000000000100000000000000000000000000 |                           011010
+  reset_enable_reporting | 0000000001000000000000000000000000000 |                           011011
+reset_enable_reporting_wait_ack | 0000000010000000000000000000000000000 |                           011100
+             read_byte_1 | 0000000100000000000000000000000000000 |                           011101
+             read_byte_2 | 0000001000000000000000000000000000000 |                           011110
+             read_byte_3 | 0000010000000000000000000000000000000 |                           011111
+             read_byte_4 | 0000100000000000000000000000000000000 |                           100000
+          mark_new_event | 0001000000000000000000000000000000000 |                           100100
+           check_read_id | 0010000000000000000000000000000000000 |                           100001
+  check_read_id_wait_ack | 0100000000000000000000000000000000000 |                           100010
+   check_read_id_wait_id | 1000000000000000000000000000000000000 |                           100011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'MouseCtl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                iSTATE27 |                            00000 | 10000000000000000000000000000000
+                 iSTATE0 |                            00001 | 01000000000000000000000000000000
+                 iSTATE3 |                            00010 | 00100000000000000000000000000000
+                iSTATE15 |                            00011 | 00010000000000000000000000000000
+                iSTATE30 |                            00100 | 00001000000000000000000000000000
+                iSTATE12 |                            00101 | 00000100000000000000000000000000
+                iSTATE20 |                            00110 | 00000010000000000000000000000000
+                iSTATE23 |                            00111 | 00000001000000000000000000000000
+                 iSTATE9 |                            01000 | 00000000100000000000000000000000
+                iSTATE17 |                            01001 | 00000000010000000000000000000000
+                 iSTATE5 |                            01010 | 00000000001000000000000000000000
+                iSTATE25 |                            01011 | 00000000000100000000000000000000
+                  iSTATE |                            01100 | 00000000000010000000000000000000
+                 iSTATE2 |                            01101 | 00000000000001000000000000000000
+                iSTATE13 |                            01110 | 00000000000000100000000000000000
+                iSTATE28 |                            01111 | 00000000000000010000000000000000
+                iSTATE10 |                            10000 | 00000000000000001000000000000000
+                iSTATE19 |                            10001 | 00000000000000000100000000000000
+                iSTATE22 |                            10010 | 00000000000000000010000000000000
+                 iSTATE8 |                            10011 | 00000000000000000001000000000000
+                iSTATE16 |                            10100 | 00000000000000000000100000000000
+                 iSTATE6 |                            10101 | 00000000000000000000010000000000
+                iSTATE26 |                            10110 | 00000000000000000000001000000000
+                 iSTATE1 |                            10111 | 00000000000000000000000100000000
+                 iSTATE4 |                            11000 | 00000000000000000000000010000000
+                iSTATE14 |                            11001 | 00000000000000000000000001000000
+                iSTATE29 |                            11010 | 00000000000000000000000000100000
+                iSTATE11 |                            11011 | 00000000000000000000000000010000
+                iSTATE21 |                            11100 | 00000000000000000000000000001000
+                iSTATE24 |                            11101 | 00000000000000000000000000000100
+                 iSTATE7 |                            11110 | 00000000000000000000000000000010
+*
+                iSTATE18 |                            11111 | 00000000000000000000000000000001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'playingNote_reg' using encoding 'sequential' in module 'main'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:01:29 . Memory (MB): peak = 915.137 ; gain = 658.562
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |main__GB0     |           1|     41512|
+|2     |main__GB1     |           1|     32427|
+|3     |main__GB2     |           1|     17412|
+|4     |main__GB3     |           1|     16949|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 4     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 5     
++---XORs : 
+	   2 Input     12 Bit         XORs := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               32 Bit    Registers := 8     
+	               26 Bit    Registers := 2     
+	               24 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 7     
+	               12 Bit    Registers := 11    
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 7     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 10    
+	                1 Bit    Registers := 47    
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  37 Input     37 Bit        Muxes := 1     
+	   2 Input     37 Bit        Muxes := 69    
+	   2 Input     32 Bit        Muxes := 148   
+	  32 Input     32 Bit        Muxes := 2     
+	   2 Input     26 Bit        Muxes := 5     
+	   2 Input     24 Bit        Muxes := 1     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   7 Input     19 Bit        Muxes := 1     
+	  17 Input     17 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 19    
+	   2 Input     16 Bit        Muxes := 1586  
+	   8 Input     16 Bit        Muxes := 180   
+	  42 Input     16 Bit        Muxes := 4     
+	  57 Input     16 Bit        Muxes := 28    
+	   2 Input     12 Bit        Muxes := 10    
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	  37 Input      8 Bit        Muxes := 3     
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 10    
+	   7 Input      7 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	  32 Input      5 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 2     
+	  37 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 88    
+	   3 Input      4 Bit        Muxes := 1     
+	  31 Input      4 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 598   
+	  17 Input      1 Bit        Muxes := 4     
+	  37 Input      1 Bit        Muxes := 20    
+	  57 Input      1 Bit        Muxes := 28    
+	   8 Input      1 Bit        Muxes := 60    
+	  42 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module main 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input     12 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               26 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               12 Bit    Registers := 3     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 5     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 142   
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     26 Bit        Muxes := 4     
+	   2 Input     19 Bit        Muxes := 1     
+	   7 Input     19 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1584  
+	   8 Input     16 Bit        Muxes := 180   
+	  42 Input     16 Bit        Muxes := 4     
+	  57 Input     16 Bit        Muxes := 28    
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 10    
+	   7 Input      7 Bit        Muxes := 1     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 87    
+	   3 Input      4 Bit        Muxes := 1     
+	  31 Input      4 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 581   
+	  57 Input      1 Bit        Muxes := 28    
+	   8 Input      1 Bit        Muxes := 60    
+	  42 Input      1 Bit        Muxes := 4     
+Module clk100MHz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Ps2Interface 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 17    
++---Muxes : 
+	  17 Input     17 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 18    
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  17 Input      1 Bit        Muxes := 4     
+Module MouseCtl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	               12 Bit    Registers := 6     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 17    
++---Muxes : 
+	  37 Input     37 Bit        Muxes := 1     
+	   2 Input     37 Bit        Muxes := 69    
+	   2 Input     26 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 10    
+	   2 Input      9 Bit        Muxes := 2     
+	  37 Input      8 Bit        Muxes := 3     
+	  37 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	  37 Input      1 Bit        Muxes := 20    
+Module freq_Input 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module Oled_Display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module Audio_Output 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Audio_Input 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
+Module clk50k 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module clk20k 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "periodic_check_tick" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "timeout" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "dut2/count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dut2/my_clk0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-4471] merging register 'crosses_reg[15:0]' into 'crosses_reg[15:0]' [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/freq_Input.v:46]
+WARNING: [Synth 8-6014] Unused sequential element crosses_reg was removed.  [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/freq_Input.v:46]
+INFO: [Synth 8-5545] ROM "sample_count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "crosses" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "crosses0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element last_frequency_reg was removed.  [C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/freq_Input.v:56]
+DSP Report: Generating DSP last_frequency1, operation Mode is: (A2*(B:0xc8))'.
+DSP Report: register crosses_reg is absorbed into DSP last_frequency1.
+DSP Report: register P is absorbed into DSP last_frequency1.
+DSP Report: operator last_frequency1 is absorbed into DSP last_frequency1.
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "dut4/count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dut4/my_clk0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dut1/count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dut1/my_clk0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design main has unconnected port JC[2]
+WARNING: [Synth 8-3331] design main has unconnected port sw[15]
+WARNING: [Synth 8-3331] design main has unconnected port sw[14]
+WARNING: [Synth 8-3331] design main has unconnected port sw[13]
+WARNING: [Synth 8-3331] design main has unconnected port sw[12]
+WARNING: [Synth 8-3331] design main has unconnected port sw[11]
+WARNING: [Synth 8-3331] design main has unconnected port sw[10]
+WARNING: [Synth 8-3331] design main has unconnected port sw[9]
+WARNING: [Synth 8-3331] design main has unconnected port sw[8]
+WARNING: [Synth 8-3331] design main has unconnected port sw[7]
+WARNING: [Synth 8-3331] design main has unconnected port sw[6]
+WARNING: [Synth 8-3331] design main has unconnected port sw[5]
+WARNING: [Synth 8-3331] design main has unconnected port sw[4]
+WARNING: [Synth 8-3331] design main has unconnected port sw[3]
+WARNING: [Synth 8-3331] design main has unconnected port sw[2]
+WARNING: [Synth 8-3331] design main has unconnected port sw[1]
+WARNING: [Synth 8-3331] design main has unconnected port sw[0]
+WARNING: [Synth 8-3331] design main has unconnected port btnC
+INFO: [Synth 8-3886] merging instance 'i_0/seg_reg[7]' (FD) to 'i_0/an_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/an_reg[1]' (FD) to 'i_0/an_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/an_reg[2]' (FD) to 'i_0/an_reg[3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/\an_reg[3] )
+WARNING: [Synth 8-3332] Sequential element (x_new_reg) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_overflow_reg) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_inc_reg[7]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_inc_reg[6]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_inc_reg[5]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_inc_reg[4]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_inc_reg[3]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_inc_reg[2]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_inc_reg[1]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_inc_reg[0]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[11]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[10]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[9]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[8]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[7]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[6]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[5]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[4]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[3]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[2]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[1]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_max_reg[0]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_sign_reg) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[11]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[10]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[9]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[8]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[7]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[6]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[5]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[4]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[3]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[2]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[1]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (x_pos_reg[0]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[11]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[10]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[9]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[8]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[7]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[6]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[5]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[4]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[3]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[2]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[1]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (xpos_reg[0]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_new_reg) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_overflow_reg) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_inc_reg[7]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_inc_reg[6]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_inc_reg[5]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_inc_reg[4]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_inc_reg[3]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_inc_reg[2]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_inc_reg[1]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_inc_reg[0]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[11]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[10]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[9]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[8]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[7]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[6]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[5]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[4]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[3]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[2]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[1]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_max_reg[0]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_sign_reg) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[11]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[10]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[9]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[8]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[7]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[6]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[5]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[4]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[3]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[2]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[1]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (y_pos_reg[0]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[11]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[10]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[9]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[8]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[7]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[6]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[5]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[4]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[3]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[2]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[1]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[0]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (zpos_reg[3]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (zpos_reg[2]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (zpos_reg[1]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (zpos_reg[0]) is unused and will be removed from module MouseCtl.
+WARNING: [Synth 8-3332] Sequential element (new_event_reg) is unused and will be removed from module MouseCtl.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\audio_out_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\audio_out_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\audio_out_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\audio_out_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\audio_out_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\audio_out_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\audio_out_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\audio_out_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\audio_out_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\audio_out_reg[10] )
+WARNING: [Synth 8-3332] Sequential element (frequency_val_reg[1]) is unused and will be removed from module freq_Input.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'i_0/i_2/BPMCount_reg[30]' (FD) to 'i_0/i_2/BPMCount_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/i_2/BPMCount_reg[29]' (FD) to 'i_0/i_2/BPMCount_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/i_2/BPMCount_reg[28]' (FD) to 'i_0/i_2/BPMCount_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/i_2/BPMCount_reg[27]' (FD) to 'i_0/i_2/BPMCount_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/i_2/\BPMCount_reg[31] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:24 ; elapsed = 00:05:56 . Memory (MB): peak = 1225.469 ; gain = 968.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|main        | oled_data  | 8192x1        | LUT            | 
+|main        | oled_data  | 8192x16       | LUT            | 
+|main        | oled_data  | 8192x1        | LUT            | 
+|main        | oled_data  | 8192x16       | LUT            | 
++------------+------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|freq_Input  | (A2*(B:0xc8))' | 16     | 8      | -      | -      | 17     | 1    | 0    | -    | -    | -     | 1    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |main__GB0     |           1|      5090|
+|2     |main__GB1     |           1|     11149|
+|3     |main__GB2     |           1|      2026|
+|4     |main__GB3     |           1|      2623|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:30 ; elapsed = 00:06:13 . Memory (MB): peak = 1225.469 ; gain = 968.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/\oled_data_reg[0] )
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:34 ; elapsed = 00:08:46 . Memory (MB): peak = 1440.727 ; gain = 1184.152
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |main_GT0      |           1|     16148|
+|2     |main_GT1      |           1|      1082|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'oled_data_reg[2]' (FDE) to 'oled_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'oled_data_reg[5]' (FDE) to 'oled_data_reg[10]'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:38 ; elapsed = 00:08:56 . Memory (MB): peak = 1440.727 ; gain = 1184.152
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop u1/Inst_Ps2Interface/ps2_clk_h_reg is being inverted and renamed to u1/Inst_Ps2Interface/ps2_clk_h_reg_inv.
+INFO: [Synth 8-5365] Flop u1/Inst_Ps2Interface/ps2_data_h_reg is being inverted and renamed to u1/Inst_Ps2Interface/ps2_data_h_reg_inv.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:39 ; elapsed = 00:08:57 . Memory (MB): peak = 1440.727 ; gain = 1184.152
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:39 ; elapsed = 00:08:58 . Memory (MB): peak = 1440.727 ; gain = 1184.152
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:39 ; elapsed = 00:08:58 . Memory (MB): peak = 1440.727 ; gain = 1184.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:40 ; elapsed = 00:08:59 . Memory (MB): peak = 1440.727 ; gain = 1184.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:40 ; elapsed = 00:08:59 . Memory (MB): peak = 1440.727 ; gain = 1184.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:40 ; elapsed = 00:08:59 . Memory (MB): peak = 1440.727 ; gain = 1184.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|main        | audio_output/temp1_reg[15] | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|main        | audio_output/temp1_reg[10] | 10     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|main        | audio_output/temp2_reg[15] | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|main        | audio_output/temp2_reg[10] | 10     | 1     | YES          | NO                 | YES               | 1      | 0       | 
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     4|
+|2     |CARRY4  |   107|
+|3     |DSP48E1 |     1|
+|4     |LUT1    |    48|
+|5     |LUT2    |   478|
+|6     |LUT3    |   463|
+|7     |LUT4    |   642|
+|8     |LUT5    |   750|
+|9     |LUT6    |  4083|
+|10    |MUXF7   |    12|
+|11    |SRL16E  |     4|
+|12    |FDE_1   |    32|
+|13    |FDRE    |   851|
+|14    |FDSE    |     7|
+|15    |IBUF    |     4|
+|16    |IOBUF   |     2|
+|17    |OBUF    |    41|
+|18    |OBUFT   |     1|
++------+--------+------+
+
+Report Instance Areas: 
++------+----------------------+-------------+------+
+|      |Instance              |Module       |Cells |
++------+----------------------+-------------+------+
+|1     |top                   |             |  7530|
+|2     |  audioInput          |Audio_Input  |    96|
+|3     |  audio_output        |Audio_Output |    53|
+|4     |  dut1                |clk20k       |    52|
+|5     |  dut2                |clk100MHz    |    52|
+|6     |  dut4                |clk50k       |    52|
+|7     |  freq_input          |freq_Input   |   116|
+|8     |  func                |Oled_Display |  3111|
+|9     |  u1                  |MouseCtl     |  3363|
+|10    |    Inst_Ps2Interface |Ps2Interface |   257|
++------+----------------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:40 ; elapsed = 00:08:59 . Memory (MB): peak = 1440.727 ; gain = 1184.152
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 128 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:26 ; elapsed = 00:08:46 . Memory (MB): peak = 1440.727 ; gain = 880.059
+Synthesis Optimization Complete : Time (s): cpu = 00:03:40 ; elapsed = 00:09:00 . Memory (MB): peak = 1440.727 ; gain = 1184.152
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 158 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 34 instances were transformed.
+  FDE_1 => FDRE (inverted pins: C): 32 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+270 Infos, 155 Warnings, 8 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:41 ; elapsed = 00:09:04 . Memory (MB): peak = 1440.727 ; gain = 1197.027
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/User/Documents/EE2026/MouseAudioDisplay.xpr/MouseAudioDisplay/MouseAudioDisplay.runs/synth_1/main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1440.727 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 31 10:10:14 2023...
